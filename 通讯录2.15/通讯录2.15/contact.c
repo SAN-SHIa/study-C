@@ -1,11 +1,24 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include "contact.h"
+//¾²Ì¬°æ±¾
+//void InitContact(Contact* pc)
+//{
+//	pc->sz = 0;
+//	memset(pc->data, 0, sizeof(pc->data));
+//}
+//¶¯Ì¬°æ±¾
 void InitContact(Contact* pc)
 {
 	pc->sz = 0;
-	memset(pc->data, 0, sizeof(pc->data));
+	PeoInfo* ptr=(PeoInfo*)calloc(DEFAULT_SIZE,sizeof(PeoInfo));
+	if (ptr == NULL)
+	{
+		perror("InitContact");
+		return;
+	}
+	pc->data = ptr;
+	pc->capacity = DEFAULT_SIZE;
 }
-
 void AddContact(Contact* pc)
 {
 	if (pc->sz == MAX)

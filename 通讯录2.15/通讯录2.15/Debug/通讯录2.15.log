@@ -1,2 +1,13 @@
-﻿  test.c
-  通讯录2.15.vcxproj -> C:\Users\HP\Desktop\CODE\通讯录2.15\Debug\通讯录2.15.exe
+﻿  contact.c
+C:\Users\HP\Desktop\GitHub-C\study-C\通讯录2.15\通讯录2.15\contact.c(13,31): warning C4013: “calloc”未定义；假设外部返回 int
+C:\Users\HP\Desktop\GitHub-C\study-C\通讯录2.15\通讯录2.15\contact.c(19,16): error C2106: “=”: 左操作数必须为左值
+C:\Users\HP\Desktop\GitHub-C\study-C\通讯录2.15\通讯录2.15\contact.c(68,26): warning C4028: 形参 1 与声明不同
+C:\Users\HP\Desktop\GitHub-C\study-C\通讯录2.15\通讯录2.15\contact.c(100,25): warning C4090: “函数”: 不同的“const”限定符
+C:\Users\HP\Desktop\GitHub-C\study-C\通讯录2.15\通讯录2.15\contact.c(119,25): warning C4090: “函数”: 不同的“const”限定符
+C:\Users\HP\Desktop\GitHub-C\study-C\通讯录2.15\通讯录2.15\contact.c(126,8): warning C4477: “scanf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“const char *”
+C:\Users\HP\Desktop\GitHub-C\study-C\通讯录2.15\通讯录2.15\contact.c(128,8): warning C4477: “scanf”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 1 拥有了类型“const int *”
+C:\Users\HP\Desktop\GitHub-C\study-C\通讯录2.15\通讯录2.15\contact.c(130,8): warning C4477: “scanf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“const char *”
+C:\Users\HP\Desktop\GitHub-C\study-C\通讯录2.15\通讯录2.15\contact.c(132,8): warning C4477: “scanf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“const char *”
+C:\Users\HP\Desktop\GitHub-C\study-C\通讯录2.15\通讯录2.15\contact.c(134,8): warning C4477: “scanf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“const char *”
+  test.c
+  正在生成代码...

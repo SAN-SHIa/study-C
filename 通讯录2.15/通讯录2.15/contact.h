@@ -7,7 +7,10 @@
 #include<string.h>
 #include<stdio.h>
 #include<assert.h>
+#include<stdlib.h>
 #define _CRT_SECURE_NO_WARNINGS
+#define DEFAULT_SIZE 3
+#define INC_SIZE 2
 
 typedef struct PeoInfo
 {
@@ -18,10 +21,12 @@ typedef struct PeoInfo
 	char tele[TELE_MAX];
 }PeoInfo;
 
+//动态版本
 typedef struct Contact
 {
 	PeoInfo data[MAX];
 	int sz;
+	int capacity;//当前最大容量
 }Contact;
 
 //初始化通讯录
